@@ -31,6 +31,29 @@ public class Employes {
     }
             
 }
+    public String getNom() {
+        return nom;
+    }
+
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public String getMatricule() {
+        return Matricule;
+    }
+
+    public int getIndiceSal() {
+        return IndiceSal;
+    }
+
+    public int getSalaire() {
+        return Salaire;
+    }
+
+    public int getNbVente() {
+        return NbVente;
+    }
 
     @Override
     public String toString() {
