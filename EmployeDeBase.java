@@ -9,7 +9,7 @@ package entreprise;
  *
  * @author cgay
  */
-public class EmployeDeBase extends Employes {
+public class EmployeDeBase extends Responsable {
     
     public EmployeDeBase(String nom, String prenom, String Matricule, int IndiceSal) {
         super(nom, prenom, Matricule, IndiceSal);
