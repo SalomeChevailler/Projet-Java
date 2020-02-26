@@ -11,11 +11,12 @@ import java.util.TreeSet;
  *
  * @author cgay
  */
-public class Responsable extends Employes{
+public class Responsable extends Employe{
     
     public Responsable(String nom, String prenom, String Matricule, int IndiceSal) {
         super(nom, prenom, Matricule, IndiceSal);
     }
-    private TreeSet<Employes> lesSousEmployes;
+    private TreeSet<Employe> lesSousEmployes;
+    
 
 }
