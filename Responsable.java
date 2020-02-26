@@ -17,8 +17,4 @@ public class Responsable extends Employes{
         super(nom, prenom, Matricule, IndiceSal);
     }
 
-    
-    public Responsables(){
-        duovzhuohzn
-    }
 }
