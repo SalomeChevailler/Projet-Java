@@ -17,8 +17,5 @@ public class Responsable extends Employes{
         super(nom, prenom, Matricule, IndiceSal);
     }
     private TreeSet<Employes> lesSousEmployes;
-    
-    public Responsables(){
-       
-    }
+
 }
