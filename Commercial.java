@@ -9,16 +9,13 @@ package entreprise;
  *
  * @author cgay
  */
-public class Entreprise {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Membre membre=new Membre();
-        
-        membre.ajouterFichier();
-        membre.
+public class Commercial extends Employe{
+    
+    
+    public Commercial(String nom, String prenom, String Matricule, int IndiceSal, int NombreDeVente) {
+        super(nom, prenom, Matricule, IndiceSal);
+        this.NbVente = NombreDeVente;
     }
     
+   
 }
