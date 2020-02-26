@@ -16,7 +16,7 @@ public class Responsable extends Employes{
     public Responsable(String nom, String prenom, String Matricule, int IndiceSal) {
         super(nom, prenom, Matricule, IndiceSal);
     }
-    private TreeSet<Employes> lesSousEmployes;
+
     
     public Responsables(){
         duovzhuohzn
