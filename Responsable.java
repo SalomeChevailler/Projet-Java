@@ -18,7 +18,5 @@ public class Responsable extends Employes{
     }
     private TreeSet<Employes> lesSousEmployes;
     
-    public Responsables(){
-        n, kb
-    }
+
 }

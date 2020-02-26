@@ -16,7 +16,7 @@ public class Employes {
      private int IndiceSal;
      private int Salaire;
      int NbVente;
-
+ 
     public Employes(String nom, String prenom, String Matricule, int IndiceSal) {
         this.nom = nom;
         this.prenom = prenom;
